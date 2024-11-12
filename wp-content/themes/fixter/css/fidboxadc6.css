@@ -1,0 +1,256 @@
+.prt-fid-with-icon.prt-fid-view-topicon .prt-fid-icon-wrapper {
+    margin-bottom: 10px;
+    height: 79px;
+    line-height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+.prt-fid-view-topicon .prt-fid-title {
+    padding-top: 13px;
+}
+.prt-fid-view-topicon h4 {
+    font-size: 142px;
+    line-height: 185px;
+}
+.prt-fid-view-topicon.inside {
+    padding: 10px 15px 10px 15px;
+}
+.prt-fid-view-topicon .prt-fid-title span {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Magnita';
+    color: var(--prt-secondarycolor);
+}
+.prt-fid-with-icon.prt-fid-view-topicon .prt-fid-icon-wrapper {   
+    display: none;
+}
+.prt-bgcolor-skincolor .prt-fid-view-topicon .prt-fid-title span {
+    color: var(--prt-whitecolor);
+}
+.prt-fid-without-icon.inside h4 {
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+.prt-fid-with-icon.prt-fid-view-topicon .prt-fid-icon-wrapper i {
+    font-size:45px;
+}
+.prt-col-bgcolor-darkgrey .prt-fid.inside h4,
+.prt-col-bgcolor-darkgrey .prt-fid.inside h3,
+.prt-bgcolor-darkgrey .prt-fid.inside h4,
+.prt-bgcolor-darkgrey .prt-fid.inside h3,
+.prt-bgcolor-skincolor .prt-fid-with-icon.prt-fid-view-topicon .prt-fid-icon-wrapper i ,
+.prt-col-bgcolor-skincolor .prt-fid-with-icon.prt-fid-view-topicon .prt-fid-icon-wrapper i  {
+    color:#fff;
+}
+.prt-fid-with-icon.prt-fid-view-topicon h3 {
+    position: relative;
+}
+.prt-fid-view-topicon.inside h4 span:nth-child(2){
+    margin-left: -0px;
+    margin-top: -12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.prt-fid-view-topicon.inside h4 span:nth-child(1) {
+    margin-right: -11px;
+}
+.prt-textcolor-white .prt-fid-view-topicon .prt-fid-inner span:before {
+    background: #ffffff;    
+}
+
+@media (max-width: 680px){
+.prt-fid-view-topicon h4 {
+    font-size: 40px;
+    line-height: 50px;
+}
+}
+
+
+
+/*** Left icon view ***/ 
+.prt-fid-view-righticon .prt-fid-left,
+.prt-fid-view-lefticon .prt-fid-left {
+    position: relative;
+    display: block;
+    width: 100%;
+}  
+.prt-fid-view-righticon .prt-fld-contents,
+.prt-fid-view-lefticon .prt-fld-contents {
+    text-align: left;
+    clear: both;
+    overflow: hidden;
+} 
+.prt-fid-view-lefticon.prt-fid-without-icon .prt-fld-contents {
+    padding-left: 0px;
+}
+.prt-fid-view-righticon-border .prt-fid-icon-wrapper,
+.prt-fid-view-lefticon-border .prt-fid-icon-wrapper,
+.prt-fid-view-righticon .prt-fid-icon-wrapper,
+.prt-fid-view-lefticon .prt-fid-icon-wrapper {
+    position: absolute;
+    top: 0px;
+}
+.prt-fid-view-righticon.inside h4,
+.prt-fid-view-lefticon.inside h4{
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+.prt-fid-view-lefticon.inside h4 span:nth-child(2){
+    margin-left: -5px;
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.prt-fid-view-lefticon.inside h3 span {
+    padding: 2px 0px 2px 0px;
+    display: block;
+}
+.prt-fid-view-lefticon .prt-fld-contents{
+    padding-left: 80px;
+}
+.fid-leftpadiingnone .prt-fid-view-lefticon .prt-fld-contents {
+    padding-left: 0;
+}
+.prt-bgcolor-darkgrey .prt-fid.inside.prt-fid-view-lefticon h3 {
+    color: rgba(255,255,255,0.70);
+    font-size: 18px;
+    line-height: 26px;
+}
+.prt-fid-with-icon.prt-fid.inside.prt-fid-view-lefticon h3 {
+    font-size: 15px;
+}
+.prt-fid-view-righticon.inside h4{
+    float: right;
+}
+.prt-textcolor-white .inside h3 {
+    color: rgba(255, 255, 255, 1) !important;
+}
+.inside.prt-fid-view-lefticon {
+    padding: 0;
+}
+
+/* circle progress fid box */
+
+.prt-fid-view-circle-progress.inside {
+    padding: 0;
+    margin-bottom: 0px;
+}
+.prt-circle canvas {
+    max-width: 100%;
+    height: auto!important;
+}
+.prt-circle canvas {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+.prt-fid-view-circle-progress .prt-circle-content {
+    position: relative;
+}
+.prt-circle-boxcontent {
+    position: absolute;
+    top: 48%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    -khtml-transform: translateX(0%) translateY(-50%);
+    -moz-transform: translateX(0%) translateY(-50%);
+    -ms-transform: translateX(0%) translateY(-50%);
+    -o-transform: translateX(0%) translateY(-50%);
+    transform: translateX(0%) translateY(-50%);
+}
+.prt-fid-view-circle-progress .prt-fid-number,
+.prt-fid-view-circle-progress .prt-fid-number sup,
+.prt-fid-view-circle-progress .prt-fid-number sub{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--prt-secondary-bg);
+}
+.prt-fid-view-circle-progress .prt-fid-title {
+    text-align: center;
+    padding-top:0px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+}
+.prt-fid-view-circle-progress .prt-circle-content sub {
+    bottom: 0;
+}
+/*** Right icon view ***/
+.prt-fid-view-righticon .prt-fld-contents{
+    text-align: right;
+    padding-right:95px;
+}
+.prt-fid-view-righticon.prt-fid-without-icon .prt-fld-contents{
+    padding-right: 0px; 
+}
+.prt-fid-view-righticon .prt-fid-icon-wrapper{
+    right: 13px;
+}
+.prt-fid-main-border{
+    text-align: center;
+}
+.inside .prt-content-fid {
+    text-align: center;
+    height: 140px;
+    padding-top: 18px;
+    width: 140px;
+    background-color: #1a1d22;
+    border-radius: 50%;
+    position:relative;
+}
+/*fid style 1*/
+.prt-fid-view-style1.inside {
+    padding: 10px 15px 10px 15px;
+}
+.prt-fid-view-style1 .prt-fld-contents  h4 {
+    position: relative;
+    color: rgba(0, 0, 0, .1);
+    text-align: center;
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 160px;
+}
+.prt-fid-view-style1 .prt-fid-title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.prt-fid-view-style1 .prt-fid-title span {
+    color: var(--body-blackfont-color);
+    font-weight: 500;
+}
+.prt-fid-view-style1.inside h4 span:nth-child(2){
+    margin-left: -30px;
+}
+@media (max-width: 1200px){
+.prt-fid-view-style1 .prt-fld-contents  h4 {
+    font-size: 140px;
+    line-height: 140px;
+}
+}
+
+
+
+
+/*fid style 1*/
+.prt-fid-view-style2.inside  h4 {
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+}

@@ -1,0 +1,234 @@
+.prt-staticbox-style1 .prt-stepbox-content {
+    overflow: hidden;
+    position: relative;
+    background-color: var(--prt-secondarycolor);
+    transition: all 0.5s ease;
+	padding: 60px;
+    border-radius: 20px;	
+}
+.prt-staticbox-style2 .prt-stepbox.col-md-4,
+.prt-staticbox-style1 .prt-stepbox.col-md-4 {
+    width: 100%;
+	margin-bottom: 30px;
+}
+.prt-staticbox-style1 .prt-box-title h4 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 3px;
+    color: #fff;
+}
+.prt-staticbox-style1 .prt-box-icon {
+    display: inline-block;
+    width: 11%;
+    vertical-align: top;
+}
+.prt-staticbox-style1 .prt-box-content1 {
+    display: inline-block;
+    width: 80%;
+	padding-left: 34px;
+}
+.prt-ptable-icon-wrapper.prt-ptable-icon-type-text {
+    color: #fff;
+    font-size: 26px;
+	line-height: 36px;
+    font-family: var(--special-element-fontfamily);
+}
+.prt-staticbox-style1 .preyantechnosys-static-box-desc {
+    color: var(--prt-greycolor);
+    padding-top: 30px;
+	position: relative;
+}
+.prt-staticbox-style1 .prt-stepbox-content:after {
+    position: absolute;
+	content: '';
+	left: 34%;
+	bottom: 0;
+	height: 215px;
+	width: 1px;
+	background-color: rgba(255, 255, 255 , 0.1);
+}
+.prt-staticbox-style1 .prt-stepbox-content:before {
+    position: absolute;
+    content: '';
+    height: 536px;
+    width: 536px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255 , 0.1);
+    bottom: -403px;
+    left: 23%;
+}
+/* style 2 */
+.prt-staticbox-style2 .prt-ptable-icon-type-image {
+    overflow: hidden;
+    border-radius: 20px;
+}
+.prt-staticbox-style2 span.number {
+    font-size: 17px;
+    font-family: var(--special-element-fontfamily);
+    transition: all .3s ease 0s;
+}
+.prt-staticbox-style2 .prt-box-icon {
+    display: flex;
+}
+.prt-staticbox-style2 .prt-stebox-wrapper.prt-stepbox-content:hover span.number {
+    font-size: 16px;
+}
+.prt-staticbox-style2 .prt-box-title h4 {
+    font-size: 34px;
+    line-height: 56px;
+}
+.prt-staticbox-style2 .prt-box-title h4 a {
+    color: var(--body-fonts-color);
+}
+.prt-staticbox-style2 .prt-stepbox-imagebox {
+    width: 69%;
+    padding-left: 80px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.prt-staticbox-style2 .prt-box-content .prt-stepbox-imagebox img {
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    border-radius: 20px;
+}
+.prt-staticbox-style2 .prt-box-content:hover .prt-stepbox-imagebox img {
+	-moz-transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
+}
+.prt-staticbox-style2 .prt-box-content:hover span.number,
+.prt-staticbox-style2 .prt-box-content:hover .prt-box-title h4 a {
+	color: var(--prt-secondarycolor);
+}
+.prt-staticbox-style2 .preyantechnosys-static-box-desc {
+    padding-left: 70px;
+}
+.prt-staticbox-style2 .prt-box-title {
+    width: 94%;
+	padding-left: 80px;
+}
+.prt-staticbox-style2 .process-num {
+    width: 22%;
+}
+.prt-staticbox-style2 .prt-stepbox.col-md-4 {
+    border-bottom: 1px solid;
+    margin: 0;
+	padding: 0;
+}
+.prt-staticbox-style2 .prt-box-content {
+    padding: 40px 0;
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px) { 
+	.prt-staticbox-style2 .prt-stepbox-imagebox {
+		width: 69%;
+		padding-left: 0;		
+	}
+	.prt-staticbox-style2 .prt-box-title {
+		padding-left: 0;
+		width: 100%;
+	}
+	.prt-staticbox-style2 .process-num {
+		width: 33%;
+	}
+	.prt-staticbox-style2 .prt-box-title h4 {
+		font-size: 32px;
+		line-height: 54px;
+	}
+	.preyantechnosys-iconbox-styletwo .preyantechnosys-iconbox-inner {
+		padding: 15px;
+	}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1450px) { 
+	.prt-staticbox-style1 .prt-box-icon {    
+		width: 19%;
+	}
+	.prt-staticbox-style1 .prt-box-content1 {
+		width: 80%;
+		padding-left: 0;
+	}
+	.prt-staticbox-style1 .prt-box-title h4 {
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.prt-ptable-icon-wrapper.prt-ptable-icon-type-text {
+		font-size: 23px;
+		line-height: 33px;
+	}
+	.prt-staticbox-style1 .prt-stepbox-content {
+		padding: 30px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) { 
+	.prt-ptable-icon-wrapper.prt-ptable-icon-type-text {
+		font-size: 25px;
+	}
+	.prt-staticbox-style1 .prt-box-icon {    
+		width: 14%;    
+	}
+	.prt-staticbox-style1 .prt-box-content1 {
+		width: 85%;
+	}
+	.prt-staticbox-style1 .prt-box-title h4 {
+		font-size: 32px;
+		line-height: 42px;
+	}	
+	.prt-staticbox-style1 .preyantechnosys-static-box-desc {
+		padding-top: 16px;
+	}
+}
+
+@media (max-width: 1024px){ 
+	.prt-staticbox-style2 .process-num {
+		width: 100%;
+	}
+	.prt-staticbox-style2 .prt-stepbox-imagebox,
+	.prt-staticbox-style2 .prt-box-title {
+		width: 100%;
+		padding-left: 0;
+	}
+	.prt-staticbox-style2 .preyantechnosys-static-box-desc {
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	.prt-staticbox-style2 .prt-box-icon {
+		display: block;
+	}
+}
+
+@media (max-width: 991px){ 
+	.prt-staticbox-style1 .prt-stepbox-content {    
+		padding: 30px;
+	}
+}
+
+@media (max-width: 767px){ 
+	.prt-staticbox-style1 .prt-box-icon {
+		display: block;
+		width: auto;
+	}
+	.prt-staticbox-style2 .prt-box-title h4 {
+		font-size: 26px;
+		line-height: 40px;
+	}
+	.prt-staticbox-style1 .prt-box-content1 {
+		display: block;
+		width: auto;
+		padding: 20px 0 0;
+	}
+	.prt-staticbox-style1 .prt-box-title h4 {
+		font-size: 30px;
+		line-height: 42px;
+	}
+	.prt-ptable-icon-wrapper.prt-ptable-icon-type-text {    
+		font-size: 22px;
+		line-height: 32px;
+	}
+	
+}

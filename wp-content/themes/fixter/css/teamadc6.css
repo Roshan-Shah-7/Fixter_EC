@@ -1,0 +1,153 @@
+/*team style 1*/
+.preyantechnosys-teambox-style1 .preyantechnosys-post-item {
+    position: relative;
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-content-inner {
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-box-content {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.preyantechnosys-teambox-style1:hover .preyantechnosys-box-content { 
+	opacity: 1;
+}
+.preyantechnosys-teambox-style1:hover .prt-title {
+    bottom: 140px;
+    opacity: 0;
+}
+.preyantechnosys-teambox-style1 .prt-title {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    animation: prt-marque-text 5s linear infinite;
+    will-change: transform;
+    white-space: nowrap;
+}
+.preyantechnosys-teambox-style1 ul.marquebox-list li {
+	position: relative;
+	display: inline-block;
+	padding: 0 30px;
+}
+.preyantechnosys-teambox-style1 ul.marquebox-list li:after {
+    position: absolute;
+    content: '';
+    right: -10px;
+    top: 19px;
+    left: auto;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    opacity: 0.3;
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-box-content .prt-position h4 a,
+.preyantechnosys-teambox-style1 .prt-position span,
+.preyantechnosys-teambox-style1 .prt-title h4 a {    
+    color: #fff;
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-team-position .preyantechnosys-box-title h4 {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.prt-bgcolor-darkgrey .preyantechnosys-teambox-style1 .preyantechnosys-team-position .preyantechnosys-box-title h4 a,
+.prt-bgcolor-darkgrey .preyantechnosys-teambox-style2 .preyantechnosys-box-title h4 a {
+    color: var(--prt-whitecolor);
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-team-position {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.preyantechnosys-teambox-style1 span.preyantechnosys-item-thumbnail-inner img {
+    border-radius: 20px;
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-item-thumbnail-inner:after {
+    position: absolute;
+    content: '';
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) -2.65%, rgba(0, 0, 0, 0.00) 47.73%) no-repeat;
+	left: 0;
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-item-thumbnail-inner {
+    position: relative;
+}
+.preyantechnosys-teambox-style1 .prt-featured-outer-wrapper.prt-post-featured-outer-wrapper {
+    height: 409px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-box-content .prt-position h4,
+.preyantechnosys-teambox-style1 .prt-title {
+    font-size: 32px;
+    line-height: 42px;
+	color:#fff;
+	font-family: var(--special-element-fontfamily);
+}
+.preyantechnosys-teambox-style1 .preyantechnosys-box-title h4 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+@media (max-width: 992px){
+	.preyantechnosys-teambox-style1 .preyantechnosys-post-item {
+		display: block;
+	}
+	.preyantechnosys-teambox-style1 .prt-featured-outer-wrapper.prt-post-featured-outer-wrapper {
+		height: 420px;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.prt-tab-active .elementor-tab-content .elementor-widget-container {
+		text-align: left;
+		padding-top: 15px;
+	}
+	.preyantechnosys-teambox-style1 .preyantechnosys-box-content {
+		padding: 30px 0px 16px;
+    }
+}
+
+@media (max-width: 767px){
+	.preyantechnosys-teambox-style1 span.preyantechnosys-item-thumbnail {
+		display: unset;
+	}
+	.preyantechnosys-teambox-style1 span.preyantechnosys-item-thumbnail-inner img,
+	.preyantechnosys-teambox-style1 .preyantechnosys-item-thumbnail-inner {    
+		width: 100%;
+	}
+}
+	
+@media (max-width: 680px){
+	.preyantechnosys-teambox-style1 .preyantechnosys-team-position {
+		display: block;
+	}
+	.tm-bottom-blockquote {
+		padding-top: 20px;
+	}
+}
+
+
+
+
+
+
+

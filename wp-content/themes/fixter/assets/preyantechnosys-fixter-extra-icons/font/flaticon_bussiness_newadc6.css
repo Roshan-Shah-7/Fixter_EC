@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "flaticon_bussiness_new";
+    src: url("flaticon_bussiness_newd615.ttf?5cb031c968cb689c97381cb578dfd6ed") format("truetype"),
+url("flaticon_bussiness_newd615.woff?5cb031c968cb689c97381cb578dfd6ed") format("woff"),
+url("flaticon_bussiness_newd615.woff2?5cb031c968cb689c97381cb578dfd6ed") format("woff2"),
+url("flaticon_bussiness_newd615.eot?5cb031c968cb689c97381cb578dfd6ed#iefix") format("embedded-opentype"),
+url("flaticon_bussiness_newd615.svg?5cb031c968cb689c97381cb578dfd6ed#flaticon_bussiness_new") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_bussiness_new !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-profit:before {
+    content: "\f101";
+}
+.flaticon-cash-flow:before {
+    content: "\f102";
+}
+.flaticon-target:before {
+    content: "\f103";
+}
+.flaticon-statistics:before {
+    content: "\f104";
+}
+.flaticon-flexible:before {
+    content: "\f105";
+}
+.flaticon-email:before {
+    content: "\f106";
+}
+.flaticon-arrow-right:before {
+    content: "\f107";
+}
+.flaticon-profit-1:before {
+    content: "\f108";
+}
+.flaticon-brain:before {
+    content: "\f109";
+}
+.flaticon-cooperation:before {
+    content: "\f10a";
+}
+.flaticon-international-business:before {
+    content: "\f10b";
+}
+.flaticon-consultation:before {
+    content: "\f10c";
+}
+.flaticon-workflow:before {
+    content: "\f10d";
+}
+.flaticon-leadership:before {
+    content: "\f10e";
+}
+.flaticon-optimization:before {
+    content: "\f10f";
+}
+.flaticon-owner:before {
+    content: "\f110";
+}
+.flaticon-consultant:before {
+    content: "\f111";
+}
+.flaticon-handshake:before {
+    content: "\f112";
+}
+.flaticon-customer:before {
+    content: "\f113";
+}
+.flaticon-quote:before {
+    content: "\f114";
+}
+.flaticon-creative-cloud:before {
+    content: "\f115";
+}
+.flaticon-spring:before {
+    content: "\f116";
+}
+.flaticon-metaverse:before {
+    content: "\f117";
+}
+.flaticon-group:before {
+    content: "\f118";
+}
+.flaticon-intersection:before {
+    content: "\f119";
+}
+.flaticon-stars:before {
+    content: "\f11a";
+}
