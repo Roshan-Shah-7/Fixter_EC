@@ -1,0 +1,135 @@
+/* maps  */
+.maps {
+  width: 83.89%;
+  margin: auto;
+  height: 550px;
+  margin: 2rem auto;
+  margin-bottom: 8rem;
+  box-shadow: 3px 3px 15px black;
+}
+
+.map-container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#map-container {
+  height: 550px;
+  width: 100%;
+}
+
+.locate-dealer {
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+  background: #7e102c;
+  color: #e1d3cc;
+}
+
+.maps-left {
+  padding-right: 0px !important;
+  height: 550px;
+}
+
+.maps-right {
+  padding-left: 0px !important;
+}
+
+.locate-dealer {
+  padding: 24px;
+}
+
+.locate-dealer p:first-child {
+  font-size: 32px;
+}
+
+#province {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #province{
+    flex-direction: row;
+  }
+}
+
+#province label {
+  font-size: 1.8rem;
+}
+
+#province select {
+  background: wheat;
+  width: 25rem;
+  margin-right: 5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.maps-contact-cards {
+  height: auto;
+  width: 100%;
+  border-radius: 4px;
+  background: white;
+  padding: 8px 12px 8px 12px;
+  margin-bottom: 12px;
+}
+
+.maps-contact-cards p:first-child {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.maps-contact-cards p:nth-child(2) {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.maps-contact-cards p:nth-child(2)::before {
+  content: "⚲";
+}
+
+.maps-contact-cards p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-align: end;
+  color: gray;
+}
+.maps-contact-cards p:nth-child(3)::before {
+  content: "☎";
+}
+
+@media (max-width: 768px) {
+  .maps {
+    width: 96%;
+    height: auto;
+  }
+
+  .maps-left {
+    padding-right: 15px !important;
+  }
+
+  .maps-right {
+    padding-left: 15px !important;
+  }
+
+  .maps-contact-cards p:first-child {
+    font-size: 16px;
+  }
+
+  .maps-contact-cards p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .maps-contact-cards p:nth-child(3) {
+    font-size: 13px;
+  }
+}
