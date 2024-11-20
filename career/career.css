@@ -22,17 +22,29 @@ p {
   max-width: 50%;
 }
 
+.list-of-jobs h1 {
+  font-weight: 600;
+}
+
 .main-ul .main-li {
   border-bottom: 1px solid grey;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.main-ul .main-li ul {
+  font-weight: 400;
+  margin-top: 0.5rem;
 }
 
 .form-to-apply {
   padding: 1rem;
-  background: royalblue;
+  background: rgb(48, 95, 236);
   border-radius: 1rem;
   box-shadow: 2px 2px 10px black;
   color: white;
+  height: max-content;
 }
 
 .form-to-apply h1 {
@@ -43,34 +55,49 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-label {
-  font-weight: bold;
-}
-
-input,
-textarea,
-select,
-option {
-  padding: 0 0.5rem;
-  border-radius: 5px;
-  outline: none;
+.form-field input,
+.form-field textarea,
+.form-field select {
+  padding: 0.5rem 1rem;
   border: 1px solid black;
+  border-radius: 1rem;
 }
 
 select {
   height: 4vh;
+  color: black;
+}
+
+.form-field input:focus,
+.form-field textarea:focus,
+.form-field select:focus {
+  background: white;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder,
+.form-field select::placeholder {
+  color: black;
 }
 
 .cv-input input {
-  background: none;
-  padding: 1rem 0.5rem;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 1rem;
+  padding: 1.5rem 0.5rem;
+  background: white;
 }
 
 textarea {
   resize: none;
+}
+
+.form-field .form-button:hover {
+  color: black;
+  background: whitesmoke;
 }
 
 @media (min-width: 1024px) {
@@ -81,11 +108,20 @@ textarea {
   }
 
   .form-to-apply {
-    padding: 1rem;
+    padding: 2rem 3rem;
     width: 50%;
   }
 
   label {
     font-weight: 1.1rem;
+  }
+
+  .main-ul .main-li {
+    font-size: 2.2rem;
+  }
+
+  .main-ul .main-li ul {
+    font-weight: 400;
+    font-size: 1.7rem;
   }
 }
